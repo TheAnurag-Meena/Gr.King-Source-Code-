@@ -1,0 +1,13 @@
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.csprojAssemblyReference.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit_Antiban.Form1.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit_Antiban.Login.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit_Antiban.Register.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.csproj.GenerateResource.cache
+I:\Spirit Antiban Project\Spirit Antiban\bin\x86\Release\Spirit Antiban.exe.config
+I:\Spirit Antiban Project\Spirit Antiban\bin\x86\Release\Spirit Antiban.exe
+I:\Spirit Antiban Project\Spirit Antiban\bin\x86\Release\Spirit Antiban.pdb
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit_Antiban.Properties.Resources.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.csproj.CoreCompileInputs.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.csproj.Fody.CopyLocal.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.exe
+I:\Spirit Antiban Project\Spirit Antiban\obj\x86\Release\Spirit Antiban.pdb

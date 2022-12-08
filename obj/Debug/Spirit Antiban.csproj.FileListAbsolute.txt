@@ -1,0 +1,40 @@
+N:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.exe.config
+N:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.exe
+N:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.pdb
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csprojAssemblyReference.cache
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Form1.resources
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Properties.Resources.resources
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.GenerateResource.cache
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.CoreCompileInputs.cache
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.exe
+N:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.pdb
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.exe.config
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.exe
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Spirit Antiban.pdb
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csprojAssemblyReference.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Form1.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Login.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Properties.Resources.resources
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.GenerateResource.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.CoreCompileInputs.cache
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.exe
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.pdb
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\AlphaBlendTextBox.dll
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\AuthGG.dll
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Bunifu_UI_v1.5.3.dll
+I:\Spirit Antiban Project\Spirit Antiban\bin\Debug\Newtonsoft.Json.dll
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.CopyComplete
+I:\Spirit Antiban Project\Spirit Antiban\obj\Debug\Spirit_Antiban.Register.resources
+I:\Projects\Spirit Antiban\bin\Debug\Spirit Antiban.exe.config
+I:\Projects\Spirit Antiban\bin\Debug\Spirit Antiban.exe
+I:\Projects\Spirit Antiban\bin\Debug\Spirit Antiban.pdb
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.csprojAssemblyReference.cache
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.GenerateResource.cache
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.CoreCompileInputs.cache
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.csproj.Fody.CopyLocal.cache
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.exe
+I:\Projects\Spirit Antiban\obj\Debug\Spirit Antiban.pdb
+I:\Projects\Spirit Antiban\obj\Debug\Spirit_Antiban1.Properties.Resources.resources
+I:\Projects\Spirit Antiban\obj\Debug\Spirit_Antiban1.Form1.resources
+I:\Projects\Spirit Antiban\obj\Debug\Spirit_Antiban1.Login.resources
+I:\Projects\Spirit Antiban\obj\Debug\Spirit_Antiban1.Register.resources

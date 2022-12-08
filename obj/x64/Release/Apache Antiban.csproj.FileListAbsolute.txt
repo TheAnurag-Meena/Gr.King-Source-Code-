@@ -1,0 +1,14 @@
+J:\Projects\Apache Antiban\1.0\bin\x64\Release\Apache Antiban.exe.config
+J:\Projects\Apache Antiban\1.0\bin\x64\Release\Apache Antiban.exe
+J:\Projects\Apache Antiban\1.0\bin\x64\Release\Apache Antiban.pdb
+J:\Projects\Apache Antiban\1.0\bin\x64\Release\DotNetZip.xml
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.csprojAssemblyReference.cache
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache_Antiban.Form1.resources
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache_Antiban.Login.resources
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache_Antiban.Properties.Resources.resources
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.csproj.GenerateResource.cache
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.csproj.CoreCompileInputs.cache
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.csproj.Fody.CopyLocal.cache
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.csproj.CopyComplete
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.exe
+J:\Projects\Apache Antiban\1.0\obj\x64\Release\Apache Antiban.pdb

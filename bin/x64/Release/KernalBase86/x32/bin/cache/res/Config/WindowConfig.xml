@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<ConfigAgent name="window" configType="IGFStandardWin">
+		<configProp>
+			<!-- 只有关闭按钮但不带icon窗口config-->
+			<prop field="background">
+				<value>
+					<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+				</value>
+			</prop>
+			<prop field="material">
+				<value>
+					<Texture file="commonres:window\window_material.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<!--prop field="bigIcon" value="commonres:Common\\All_logo32-xp.ico"/>
+		<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/-->
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 34,0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Title"/>
+			<prop field="sysButtonConfig" value="tsysbutton"/>
+			<prop field="showCloseButton" value="true"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="titleOffset" value="-13, 10"/>
+			<prop field="toolWindow" value="true"/>
+			<prop field="topground">
+				<value>
+					<Texture file="commonres:window\mainwindow_skeleton.gft" hidden="true"/>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Detail_Close_Window" configType="IGFStandardWin">
+		<!-- 90chekced done -->
+		<configProp>
+			<!-- 只有关闭按钮但不带icon窗口config-->
+			<prop field="background">
+				<value>
+					<Texture file="commonres:window\detail_window_bkg.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<!--prop field="bigIcon" value="commonres:Common\\All_logo32-xp.ico"/>
+		<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/-->
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 30,0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Text"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Text"/>
+			<prop field="titleTextFont" value="#@this.Font.Title"/>
+			<prop field="sysButtonConfig" value="tipslightsysbutton"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="layered" value="true"/>
+			<prop field="titleOffset" value="-13, 7"/>
+			<prop field="toolWindow" value="true"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="FixedSize_Normal_Window" configType="IGFStandardWin" comboConfig="Min_Close_Window"/>
+	<ConfigAgent name="Normal_Window" configType="IGFStandardWin" comboConfig="Min_Close_Window"/>
+	<ConfigAgent name="Green_BigTipsWindow" configType="IGFStandardWin" comboConfig="Green_TipsWindow">
+		<configProp>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIconSize" value="76,104"/>
+			<prop field="titleOffset" value="18,31"/>
+			<prop field="ncArea" value="120, 32, 5, 4"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Blue_BigTipsWindow" configType="IGFStandardWin" comboConfig="Blue_TipsWindow">
+		<configProp>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIconSize" value="76,104"/>
+			<prop field="titleOffset" value="18,31"/>
+			<prop field="ncArea" value="120, 32, 5, 4"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Orange_BigTipsWindow" configType="IGFStandardWin" comboConfig="Orange_TipsWindow">
+		<configProp>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIconSize" value="76,104"/>
+			<prop field="titleOffset" value="18,31"/>
+			<prop field="ncArea" value="120, 32, 5, 4"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Red_BigTipsWindow" configType="IGFStandardWin" comboConfig="Red_TipsWindow">
+		<configProp>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_bigtipswindow.png"/>
+			<prop field="smallIconSize" value="76,104"/>
+			<prop field="titleOffset" value="18,31"/>
+			<prop field="ncArea" value="120, 32, 5, 4"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Green_TipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\green_tipswindow.gft"/>
+				</value>
+			</prop>
+			<!--prop field="clientBkg">
+				<value>
+					<Brush drawType="Vertical" clrFrom="0xFFFFFF" clrTo="0xf1f8fa"/>
+				</value>
+			</prop-->
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIconSize" value="67,100"/>
+			<prop field="titleOffset" value="21,27"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="120, 26, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Blue_TipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\blue_tipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIconSize" value="67,100"/>
+			<prop field="titleOffset" value="21,27"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="120, 26, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Orange_TipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\orange_tipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIconSize" value="67,100"/>
+			<prop field="titleOffset" value="21,27"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="120, 26, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Red_TipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\red_tipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_tipswindow.png"/>
+			<prop field="smallIconSize" value="67,100"/>
+			<prop field="titleOffset" value="21,27"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="120, 26, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Green_SmallTipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\green_smalltipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIconSize" value="58,78"/>
+			<prop field="titleOffset" value="15,15"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="99, 27, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="400,106"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Blue_SmallTipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\blue_smalltipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIconSize" value="58,78"/>
+			<prop field="titleOffset" value="15,15"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="99, 27, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="400,106"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="orange_SmallTipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\orange_smalltipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIconSize" value="58,78"/>
+			<prop field="titleOffset" value="15,15"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="99, 27, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="400,106"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Red_SmallTipsWindow" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\red_smalltipswindow.gft"/>
+				</value>
+			</prop>
+			<prop field="bigIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIcon" value="commonres:TipWindow\\logo_smalltipswindow.png"/>
+			<prop field="smallIconSize" value="58,78"/>
+			<prop field="titleOffset" value="15,15"/>
+			<prop field="layered" value="TRUE"/>
+			<prop field="ncArea" value="99, 27, 5, 4"/>
+			<prop field="border" value="0,0,0,0"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="400,106"/>
+			<prop field="sysButtonOffset" value="-2, 2"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Close_Window" configType="IGFStandardWin">
+		<configProp>
+			<!-- 只有关闭按钮但不带icon窗口config-->
+			<prop field="background">
+				<value>
+					<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+				</value>
+			</prop>
+			<prop field="material">
+				<value>
+					<Texture file="commonres:window\window_material.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<!--prop field="bigIcon" value="commonres:Common\\All_logo32-xp.ico"/>
+		<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/-->
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 34,0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Title"/>
+			<prop field="sysButtonConfig" value="tsysbutton"/>
+			<prop field="showCloseButton" value="true"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="titleOffset" value="-13, 10"/>
+			<prop field="toolWindow" value="true"/>
+			<prop field="topground">
+				<value>
+					<Texture file="commonres:window\mainwindow_skeleton.gft" hidden="true"/>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Mobile_Tips_Window" configType="IGFStandardWin" comboConfig="Min_Close_Window"/>
+	<ConfigAgent name="Min_Close_Window" configType="IGFStandardWin">
+		<configProp>
+			<!-- 只有关闭按钮但带icon窗口config-->
+			<prop field="background">
+				<value>
+					<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+				</value>
+			</prop>
+			<prop field="material">
+				<value>
+					<Texture file="commonres:window\window_material.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<prop field="bigIcon" value="commonres:Common\\All_logo32-xp.ico"/>
+			<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 34,0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.NormalFont10_5"/>
+			<prop field="titleOffset" value="6, 9"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="sysButtonConfig" value="tsysbutton"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="topground">
+				<value>
+					<Texture file="commonres:window\mainwindow_skeleton.gft" hidden="true"/>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Min_MinAndClose_Window" configType="IGFStandardWin">
+		<configProp>
+			<!-- 只有关闭按钮但带icon窗口config-->
+			<prop field="background">
+				<value>
+					<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+				</value>
+			</prop>
+			<prop field="material">
+				<value>
+					<Texture file="commonres:window\window_material.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<prop field="bigIcon" value="commonres:Common\\All_logo32-xp.ico"/>
+			<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 34,0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Title"/>
+			<prop field="titleOffset" value="6, 10"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="true"/>
+			<prop field="sysButtonConfig" value="tsysbutton"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="topground">
+				<value>
+					<Texture file="commonres:window\mainwindow_skeleton.gft" hidden="true"/>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="TrayExit_Window" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\popupwndbkg_bigshadow.gft"/>
+				</value>
+			</prop>
+			<prop field="border" value="13, 13, 13, 13"/>
+			<prop field="ncArea" value="0, 29, 0, 0"/>
+			<prop field="titleGap" value="4"/>
+			<prop field="sysButtonOffset" value="-11,11"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Font_TipsTitle"/>
+			<prop field="sysButtonConfig" value="tsysbutton"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="layered" value="true"/>
+			<prop field="aero" value="true"/>
+			<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="smallIconSize" value="0,0"/>
+			<prop field="titleOffset" value="8,6"/>
+			<prop field="titleText" value="电脑管家 - 退出"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="359,546"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="LighterTipsWnd" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\lightTipsBkg.gft"/>
+				</value>
+			</prop>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Black"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Black"/>
+			<prop field="titleTextFont" value="#@this.Font.lighterTitle"/>
+			<prop field="smallIconSize" value="20,20"/>
+			<prop field="bigIcon" value="commonres:Icon\\icon_title(20x20).png"/>
+			<prop field="smallIcon" value="commonres:Icon\\icon_title(20x20).png"/>
+			<prop field="layered" value="true"/>
+			<prop field="ncArea" value="0, 0, 0, 0"/>
+			<prop field="border" value="7,7,7,7"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="sysButtonOffset" value="-3, 2"/>
+			<prop field="sysButtonConfig" value="lighterTipsSysButton"/>
+			<prop field="showCloseButton" value="true"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="toolWindow" value="true"/>
+			<prop field="size" value="376, 157"/>
+			<prop field="topmost" value="true"/>
+			<prop field="fixPosition" value="false"/>
+			<prop field="titleText" value="电脑管家-全国互联网安全评级"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="QBTipsWnd" configType="IGFStandardWin">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:TipWindow\tips_wnd_bkg.gft"/>
+				</value>
+			</prop>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Black"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Black"/>
+			<prop field="titleTextFont" value="#@this.Font.lighterTitle"/>
+			<prop field="smallIconSize" value="15,16"/>
+			<prop field="smallIcon" value="commonres:Icon\\icon_tips.png"/>
+			<prop field="layered" value="true"/>
+			<prop field="ncArea" value="0, 0, 0, 0"/>
+			<prop field="border" value="7,7,7,7"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="sysButtonOffset" value="0, 0"/>
+			<prop field="sysButtonConfig" value="Single_Sysbutton"/>
+			<prop field="showCloseButton" value="true"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="toolWindow" value="true"/>
+			<prop field="size" value="376, 157"/>
+			<prop field="topmost" value="true"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：tips 无详情窗口-->
+	<ConfigAgent name="tips_nodetails" configType="IGFStandardWin">
+		<configProp>
+			<!--复用电脑管家主窗口config-->
+			<!--prop field="background">
+				<value>
+					<Texture file="commonres:window\\wnd_bkg.gft"/>
+				</value>
+			</prop-->
+			<prop field="material">
+				<value>
+					<Texture file="commonres:window\\wnd_material.gft"/>
+				</value>
+			</prop>
+			<prop field="border" value="13, 13, 13, 13"/>
+			<prop field="ncArea" value="0, 29, 0, 0"/>
+			<prop field="titleGap" value="4"/>
+			<prop field="sysButtonOffset" value="-16,13"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Font_TipsTitle"/>
+			<prop field="sysButtonConfig" value="mainsysbutton"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="topground">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\mainwnd_skeleton.gft"/>
+						</background>
+						<Texture file="commonres:window\wnd_light.gft"/>
+					</Canvas>
+				</value>
+			</prop>
+			<prop field="layered" value="true"/>
+			<prop field="aero" value="true"/>
+			<prop field="bigIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="titleOffset" value="8,7"/>
+			<prop field="titleText" value="电脑管家"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="359,546"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目: 无详情窗口蓝-->
+	<ConfigAgent name="tips_nodetails_blue" configType="IGFStandardWin" comboConfig="tips_nodetails">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目: 无详情窗口绿-->
+	<ConfigAgent name="tips_nodetails_green" configType="IGFStandardWin" comboConfig="tips_nodetails">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_safe_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：tips 无详情窗口红-->
+	<ConfigAgent name="tips_nodetails_red" configType="IGFStandardWin" comboConfig="tips_nodetails">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_danger_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：有详情Tips-->
+	<ConfigAgent name="tips_details" configType="IGFStandardWin">
+		<configProp>
+			<!--复用电脑管家主窗口config-->
+			<!--prop field="background">
+				<value>
+					<Texture file="commonres:window\\wnd_bkg.gft"/>
+				</value>
+			</prop-->
+			<prop field="material">
+				<value>
+					<Texture file="commonres:TipWindow\\tipswnd_details_material.gft"/>
+				</value>
+			</prop>
+			<prop field="border" value="13, 13, 13, 13"/>
+			<prop field="ncArea" value="0, 29, 0, 0"/>
+			<prop field="titleGap" value="4"/>
+			<prop field="sysButtonOffset" value="-16,13"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Font_TipsTitle"/>
+			<prop field="sysButtonConfig" value="mainsysbutton"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="topground">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\mainwnd_skeleton.gft"/>
+						</background>
+						<Texture file="commonres:window\wnd_light.gft"/>
+					</Canvas>
+				</value>
+			</prop>
+			<prop field="layered" value="true"/>
+			<prop field="aero" value="true"/>
+			<prop field="bigIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="smallIcon" value="commonres:Common\\All_logo16-xp.ico"/>
+			<prop field="titleOffset" value="8,7"/>
+			<prop field="titleText" value="电脑管家"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="359,546"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目:有详情窗口蓝-->
+	<ConfigAgent name="tips_details_blue" configType="IGFStandardWin" comboConfig="tips_details">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目: 有详情窗口绿-->
+	<ConfigAgent name="tips_details_green" configType="IGFStandardWin" comboConfig="tips_details">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_safe_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：tips 有详情窗口红-->
+	<ConfigAgent name="tips_details_red" configType="IGFStandardWin" comboConfig="tips_details">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_danger_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：轻Tips-->
+	<ConfigAgent name="tips_light" configType="IGFStandardWin">
+		<configProp>
+			<!--复用电脑管家主窗口config-->
+			<!--prop field="background">
+				<value>
+					<Texture file="commonres:window\\wnd_bkg.gft"/>
+				</value>
+			</prop-->
+			<prop field="material">
+				<value>
+					<Texture file="commonres:TipWindow\\tipswnd_light_material.gft"/>
+				</value>
+			</prop>
+			<prop field="border" value="13, 13, 13, 13"/>
+			<prop field="ncArea" value="0, 29, 0, 0"/>
+			<prop field="titleGap" value="3"/>
+			<prop field="sysButtonOffset" value="-16,13"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Text"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Text"/>
+			<prop field="titleTextFont" value="#@this.Font.Font_TipsTitle"/>
+			<prop field="sysButtonConfig" value="tipslightsysbutton"/>
+			<prop field="showMaxButton" value="false"/>
+			<prop field="showMinButton" value="false"/>
+			<prop field="topground">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\mainwnd_skeleton.gft"/>
+						</background>
+						<Texture file="commonres:window\wnd_light.gft"/>
+					</Canvas>
+				</value>
+			</prop>
+			<prop field="layered" value="true"/>
+			<prop field="aero" value="true"/>
+			<prop field="titleOffset" value="6, 7"/>
+			<prop field="titleText" value="电脑管家"/>
+			<prop field="fixSize" value="true"/>
+			<prop field="size" value="366, 121"/>
+			<prop field="toolWindow" value="TRUE"/>
+			<prop field="topmost" value="TRUE"/>
+			<prop field="fixPosition" value="false"/>
+			<prop field="smallIconSize" value="0, 0"/>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目:轻Tip蓝-->
+	<ConfigAgent name="tips_light_blue" configType="IGFStandardWin" comboConfig="tips_light">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:SkinMgr\Skins\4.5_0\topicmaps-1.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目: 轻Tip绿-->
+	<ConfigAgent name="tips_light_green" configType="IGFStandardWin" comboConfig="tips_light">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_safe_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<!--10.0项目：轻Tip红-->
+	<ConfigAgent name="tips_light_red" configType="IGFStandardWin" comboConfig="tips_light">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Canvas>
+						<background>
+							<Texture file="commonres:window\wnd_danger_bkg.gft"/>
+						</background>
+					</Canvas>
+				</value>
+			</prop>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="gfsysmessagebox90" configType="IGFSysMessageBox">
+		<configProp>
+			<prop field="background">
+				<value>
+					<Texture file="commonres:window\detail_window_bkg.gft"/>
+				</value>
+			</prop>
+			<prop field="backgroundAnimation" value="true"/>
+			<prop field="border" value="6, 6, 6, 6"/>
+			<prop field="ncArea" value="0, 30, 0, 45"/>
+			<prop field="sysButtonOffset" value="-5,5"/>
+			<prop field="titleTextActivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextInactivateColor" value="#@this.TextColor.Title"/>
+			<prop field="titleTextFont" value="#@this.Font.Title"/>
+			<prop field="titleOffset" value="-200, 10"/>
+			<prop field="sysButtonConfig" value="msgsysbutton"/>
+			<prop field="stopFile" value="commonres:MessageBox\\sysmessagebox_warningFile.png"/>
+			<prop field="warningFile" value="commonres:MessageBox\\sysmessagebox_warningFile.png"/>
+			<prop field="questionFile" value="commonres:MessageBox\\sysmessagebox_questionFile.png"/>
+			<prop field="inforFile" value="commonres:MessageBox\\sysmessagebox_inforFile.png"/>
+			<prop field="layered" value="true"/>
+		</configProp>
+	</ConfigAgent>
+</Config>

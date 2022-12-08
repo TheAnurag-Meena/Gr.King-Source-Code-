@@ -1,0 +1,14 @@
+L:\PROJECTS\GR KING Antiban\1.2\bin\Debug\GR King Antiban.exe.config
+L:\PROJECTS\GR KING Antiban\1.2\bin\Debug\GR King Antiban.exe
+L:\PROJECTS\GR KING Antiban\1.2\bin\Debug\GR King Antiban.pdb
+L:\PROJECTS\GR KING Antiban\1.2\bin\Debug\DotNetZip.xml
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GRKing Antiban.csprojAssemblyReference.cache
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GR_King.Form1.resources
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GR_King.Login.resources
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GR_King.Properties.Resources.resources
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GRKing Antiban.csproj.GenerateResource.cache
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GRKing Antiban.csproj.CoreCompileInputs.cache
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GRKing Antiban.csproj.Fody.CopyLocal.cache
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GRKing Antiban.csproj.CopyComplete
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GR King Antiban.exe
+L:\PROJECTS\GR KING Antiban\1.2\obj\Debug\GR King Antiban.pdb

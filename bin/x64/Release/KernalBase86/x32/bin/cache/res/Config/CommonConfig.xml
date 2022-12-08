@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <ConfigAgent name="BigText_Static" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <prop field="font" value="#@this.Font.Font_BigText12"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="BigNumber_Static" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <prop field="font" value="#@this.Font.Font_BigNumber20"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBoldTextNoModifyColor" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="font" value="#@this.Font.MainScanTitle"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSColorTextNode029a47" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Green"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSColorTextNodeE45C27" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <!--<prop field="font" value="#@this.Font.MainScanTitle"/>-->
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBrownTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <!-- 棕色字 -->
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBrownBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBrownBigBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <prop field="font" value="#@this.Font.MainScanTitle"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Text"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSGrayTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Gray"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Text"/>
+      <prop field="font" value="#@this.Font.MainScanTitle"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="VulBigBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Text"/>
+      <prop field="font" value="#@this.Font.VulCompleteFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="VulBigRedNum" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <prop field="font" value="#@this.Font.VulCompleteFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSGreenBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Green"/>
+      <!--  -->
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSBoldColorTextNodee45c27" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Warn"/>
+      <prop field="font" value="#@this.Font.MainScanTitle"/>
+    </configProp>
+  </ConfigAgent>
+  
+  <!--蜂巢首页体检，首页体检建议项数字字体颜色属性-->
+  <ConfigAgent name="RSAuxInfoBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Info"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <!--蜂巢首页体检，首页体检危险项数字字体颜色属性-->
+  <ConfigAgent name="RSAuxDangerBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Danger"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <!--蜂巢首页体检，首页体检危险项文字颜色属性-->
+  <ConfigAgent name="RSAuxDangerTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Danger"/>
+    </configProp>
+  </ConfigAgent>
+  <!--蜂巢首页体检，首页体检安全项数字字体颜色属性-->
+  <ConfigAgent name="RSAuxSafeBoldTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Safe"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  
+
+  <!-- 立方体增加新的字体颜色属性(替代RSBoldColorTextNodee45c27)by stanleyfu on 2013.3.13 -->
+  <ConfigAgent name="RSBoldColorTextNode_f1801b" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="0xf1801b"/>
+      <prop field="font" value="#@this.Font.MainScanTitle"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSFz36WhiteColorTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <!-- 方正兰亭36号白字字体-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz36Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSFz28BoldWhiteColorTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <!-- 方正兰亭28号白字粗字体-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz28BoldFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="RSMainScanResultTextNode" configType="IGFRSETextNode">
+    <configProp>
+      <prop field="color" value="#@this.TextColor.Green"/>
+      <prop field="font" value="#@this.Font.NormalFont13"/>
+    </configProp>
+  </ConfigAgent>
+	<ConfigAgent name="Normal14_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Text"/>
+			<prop field="font" value="#@this.Font.Normal14"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="Normal16_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Text"/>
+			<prop field="font" value="#@this.Font.Normal16"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="resultBtn_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="0xffffff"/>
+			<prop field="font" value="#@this.Font.btn16Font"/>
+		</configProp>
+	</ConfigAgent>
+  <ConfigAgent name="MainScanResultText_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Text"/>
+			<prop field="font" value="#@this.Font.btn16Font"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Normal14_GRAY_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="0x777777"/>
+			<prop field="font" value="#@this.Font.Normal14"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Normal14_Bold_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Text"/>
+			<prop field="font" value="#@this.Font.Normal14Bold"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz18_Bold_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.fz18BoldFont"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Normal17_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.NormalFont13"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz24_Bold_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.fz24BlodFont"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz26_Bold_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.fz26BlodFont"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz20_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.fz20Font"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz20_Bold_Static" configType="IGFStatic">
+		<configProp>
+			<prop field="color" value="#@this.TextColor.Title"/>
+			<prop field="font" value="#@this.Font.fz20BoldFont2"/>
+		</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz32_Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭36号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz32BoldFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz33_Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭36号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz33BoldFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz36_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭36号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz36Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz36_Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭36号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz36BoldFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz28_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭28号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz28Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz30_Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭30号粗体静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz30BlodFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz30_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭30号静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz30Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz28_Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--方正兰亭28号粗体静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.White"/>
+      <prop field="font" value="#@this.Font.fz28BoldFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Fz66_Static" configType="IGFStatic">
+	<configProp>
+		<!--方正兰亭36号静态文本控件config-->
+		<prop field="color" value="#@this.TextColor.White"/>
+		<prop field="font" value="#@this.Font.fz66Font"/>
+	</configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Normal_Static" configType="IGFStatic">
+    <configProp>
+      <!--标准静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.Text"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+    </configProp>
+  </ConfigAgent>
+	<ConfigAgent name="LanTingTitleNum_Static" configType="IGFStatic">
+		<configProp>
+			<!--标准静态文本控件config-->
+			<prop field="color" value="0xFF333333"/>
+			<prop field="font" value="#@this.Font.fz20BoldFont"/>
+		</configProp>
+	</ConfigAgent>
+	<ConfigAgent name="LanTingTitle_Static" configType="IGFStatic">
+		<configProp>
+			<!--标准静态文本控件config-->
+			<prop field="color" value="0xFF333333"/>
+			<prop field="font" value="#@this.Font.fz22BoldFont"/>
+		</configProp>
+	</ConfigAgent>
+  <ConfigAgent name="Bold_Static" configType="IGFStatic">
+    <configProp>
+      <!--粗体静态文本控件12pxconfig-->
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="color" value="#@this.TextColor.Text"/>
+      <prop field="font" value="#@this.Font.Bold"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Bold_Static_14" configType="IGFStatic">
+    <configProp>
+      <!--粗体静态文本控件12pxconfig-->
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="color" value="#@this.TextColor.Text"/>
+      <prop field="font" value="#@this.Font.Bold14"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Auxiliary_Static" configType="IGFStatic">
+    <configProp>
+      <!--辅助静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.Auxiliary"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Gray_Static" configType="IGFStatic">
+    <configProp>
+      <!--灰色静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.Gray"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Background_Static" configType="IGFStatic">
+    <configProp>
+      <!--白色静态文本控件config-->
+      <prop field="color" value="#@this.Color.Background"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Link_Static_Line" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>#platform.TextColor.MasterHighLink</normalColor>
+        <highlightColor>#platform.TextColor.MasterHighLink</highlightColor>
+        <pushedColor>#platform.TextColor.MasterHighLink</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Link</highlightFont>
+        <pushedFont>#platform.Font.Link</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+
+  <ConfigAgent name="Link_Static_NoLine_Bigger_Exit" configType="IGFStatic" forCommon="TRUE">
+  	<configEffect>
+  		<FontEffect>
+  			<normalColor>#platform.TextColor.MasterHighLink</normalColor>
+  			<highlightColor>#platform.TextColor.MasterHighColorLink</highlightColor>
+  			<pushedColor>#platform.TextColor.MasterHighLink</pushedColor>
+  			<normalFont>#platform.Font.ExitTipTextFont</normalFont>
+  			<highlightFont>#platform.Font.ExitTipTextFont</highlightFont>
+  			<pushedFont>#platform.Font.ExitTipTextFont</pushedFont>
+  		</FontEffect>
+  	</configEffect>
+  	<configProp>
+  		<!--不带下划线的超链接静态文本控件config-->
+  		<prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+  		<prop field="font" value="#@this.Font.ExitTipTextFont"/>
+  		<prop field="cursor" value="hand"/>
+  	</configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Small_Button" configType="IGFButton" comboConfig="button" />
+  <ConfigAgent name="Big_Button" configType="IGFButton" comboConfig="button">
+    <configProp>
+      <prop field="size" value="100,30"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="ColoredRibbon_Button" configType="IGFButton" comboConfig="button" />
+  <ConfigAgent name="Green_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_green_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_green_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_green_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_green_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Small_Green_Button" configType="IGFButton" comboConfig="Green_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="75,24"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Big_Green_Button" configType="IGFButton" comboConfig="Green_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="164,50"/>
+      <prop field="font" value="#@this.Font.fz30BlodFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="New_Green_Button" configType="IGFButton" comboConfig="Green_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Green_Button_New" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_green_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_green_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_green_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_green_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Main_Green_Button" configType="IGFButton" comboConfig="Green_Button_New" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="200,76"/>
+      <prop field="font" value="#@this.Font.fz30BlodFont"/>
+    </configProp>
+  </ConfigAgent>
+
+  <ConfigAgent name="New_Orange_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_orange_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_orange_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_orange_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_main_orange_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Main_Orange_Button" configType="IGFButton" comboConfig="New_Orange_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="200,76"/>
+      <prop field="font" value="#@this.Font.fz30BlodFont"/>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Orange_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_orange_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_orange_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_orange_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_orange_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Middle_Green_Button" configType="IGFButton" comboConfig="Green_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="150,40"/>
+	  <prop field="font" value="#@this.Font.NormalFont13"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Blue_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_blue_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_blue_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_blue_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_blue_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+ 
+  <ConfigAgent name="Big_Orange_Button" configType="IGFButton" comboConfig="Orange_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="164,50"/>
+      <prop field="font" value="#@this.Font.fz30BlodFont"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="White_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.UI"/>
+      <prop field="normalColor" value="#@this.TextColor.UI"/>
+      <prop field="pushedColor" value="#@this.TextColor.UI"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_white_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_white_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_white_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_white_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Big_White_Button" configType="IGFButton" comboConfig="White_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="104,40"/>
+      <prop field="font" value="#@this.Font.btn16Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Middle_White_Button" configType="IGFButton" comboConfig="White_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="88,34"/>
+      <prop field="font" value="#@this.Font.btn16Font"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="WhiteLayer_Button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="animate" value="true"/>
+      <prop field="highlightColor" value="#@this.TextColor.White"/>
+      <prop field="normalColor" value="#@this.TextColor.White"/>
+      <prop field="pushedColor" value="#@this.TextColor.White"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_whitelayer_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_whitelayer_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_whitelayer_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:Button\\btn_whitelayer_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Big_WhiteLayer_Button" configType="IGFButton" comboConfig="WhiteLayer_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="82,23"/>
+	  <prop field="font" value="#@this.Font.Normal14"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Small_WhiteLayer_Button" configType="IGFButton" comboConfig="WhiteLayer_Button" forCommon="TRUE">
+    <configProp>
+      <prop field="size" value="58,23"/>
+	  <prop field="font" value="#@this.Font.Normal14"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Setting_button" configType="IGFButton" forCommon="TRUE">
+    <configProp>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="false"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:SysButton\sysbtn_setting_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:SysButton\sysbtn_setting_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:SysButton\sysbtn_setting_normal.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="newstyle_white_Closebutton" configType="IGFButton">
+    <!-- 90chekced done -->
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="102"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="zOrder" value="10"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_close_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_close_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_close_down.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="newstyle_white_minbutton" configType="IGFButton">
+    <!-- 90chekced done -->
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="100"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_min_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_min_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_white_min_down.gft"/>
+        </value>
+      </prop>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="toolTip" value="$@this:MinimizeWindow"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="mainwhitesysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="newstyle_white_Closebutton"/>
+      <prop field="minimizeConfig" value="newstyle_white_minbutton"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Single_Closebutton" configType="IGFButton">
+    <configProp>
+      <!--Tips窗口sys关闭按钮-->
+      <prop field="highlightColor" value="#@this.TextColor.UI"/>
+      <prop field="normalColor" value="#@this.TextColor.UI"/>
+      <prop field="pushedColor" value="#@this.TextColor.UI"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_single_close_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_single_close_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_single_close_down.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Single_Sysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="Single_Closebutton"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="HighLight_FixedSize_Normal_Button" configType="IGFButton" comboConfig="button"/>
+  <ConfigAgent name="Normal_Button" configType="IGFButton" comboConfig="button">
+    <configProp>
+      <prop field="autoWidth" value="false"/>
+      <prop field="autoHeight" value="false"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="small_progress" configType="IGFProgress">
+    <configProp>
+      <prop field="background">
+        <value>
+          <Texture file="commonres:progress\\progress_background_small.gft"/>
+        </value>
+      </prop>
+      <prop field="foreground">
+        <value>
+          <Texture file="commonres:progress\\progress_foreground_small.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="fringe_progress" configType="IGFProgress">
+    <configProp>
+      <prop field="background">
+        <value>
+          <Texture file="commonres:progress\\progress_bkg_fringe.gft"/>
+        </value>
+      </prop>
+      <prop field="foreground">
+        <value>
+          <Texture file="commonres:progress\\progress_fg_fringe.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="normal_progress" configType="IGFProgress">
+    <configProp>
+      <!--标准进度条config-->
+      <prop field="background">
+        <value>
+          <Texture file="commonres:Progress\\progress_background_detect.gft"/>
+        </value>
+      </prop>
+      <prop field="foreground">
+        <value>
+          <Texture file="commonres:Progress\\progress_foreground_detect.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <!-- listview-->
+  <ConfigAgent name="listview" configType="IGFListView">
+    <configProp>
+      <!-- 列表视图控件config -->
+      <prop field="itemBgSelect">
+        <value>
+          <Texture file="commonres:ListCtrl\sigleRow_mouseselect.gft">
+          </Texture>
+        </value>
+      </prop>
+      <prop field="itemBgOdd">
+        <value>
+          <Texture file="commonres:ListCtrl\normal_bkg.gft"/>
+        </value>
+      </prop>
+      <prop field="itemBgEven">
+        <value>
+          <Texture file="commonres:ListCtrl\normal_bkg.gft"/>
+        </value>
+      </prop>
+      <prop field="itemBgMouseOver">
+        <value>
+          <Texture file="commonres:ListCtrl\singleRow_mousemove.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="headerctrl" configType="IGFHeaderCtrl">
+    <configProp>
+      <prop field="background">
+        <value>
+          <Texture file="commonres:ListCtrl\img_list_top.gft"/>
+        </value>
+      </prop>
+      <prop field="titleLine">
+        <value>
+          <Texture file="commonres:ListCtrl\All_listctrl_titleLine.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowDown">
+        <value>
+          <Texture file="commonres:ListCtrl\All_listctrl_arrowDown.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowUp">
+        <value>
+          <Texture file="commonres:ListCtrl\All_listctrl_arrowUp.gft"/>
+        </value>
+      </prop>
+      <prop field="itemBgNormal">
+        <value>
+          <Texture file="commonres:ListCtrl\img_list_top.gft"/>
+        </value>
+      </prop>
+      <prop field="itemBgHighlight">
+        <value>
+          <Texture file="commonres:ListCtrl\img_list_top.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Beginner_Link_Static" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--不带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal14_Static"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>0x999999</normalColor>
+        <highlightColor>0x2871d5</highlightColor>
+        <pushedColor>0x2871d5</pushedColor>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+  
+  <ConfigAgent name="Link_Static_NoLine" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--不带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>#platform.TextColor.MasterHighLink</normalColor>
+        <highlightColor>#platform.TextColor.MasterHighColorLink</highlightColor>
+        <pushedColor>#platform.TextColor.MasterDownColorLink</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Normal</highlightFont>
+        <pushedFont>#platform.Font.Normal</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+  <ConfigAgent name="Link_Static_Line_For_BlueBackground_TabReturn" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>0xd0dcf3</normalColor>
+        <highlightColor>0xffffff</highlightColor>
+        <pushedColor>0xd0dcf3</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Link</highlightFont>
+        <pushedFont>#platform.Font.Normal</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+  <ConfigAgent name="Link_Static_Line_For_RedBackground_TabReturn" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>0xf6d2cd</normalColor>
+        <highlightColor>0xffffff</highlightColor>
+        <pushedColor>0xf6d2cd</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Link</highlightFont>
+        <pushedFont>#platform.Font.Normal</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+  <ConfigAgent name="Link_Static_Line_For_GreenBackground_TabReturn" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--带下划线的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>0xcfe5d5</normalColor>
+        <highlightColor>0xffffff</highlightColor>
+        <pushedColor>0xcfe5d5</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Link</highlightFont>
+        <pushedFont>#platform.Font.Normal</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+  
+  <ConfigAgent name="FixedSize_Normal_Button" configType="IGFButton" comboConfig="button"/>
+  <ConfigAgent name="normal_tabbutton" configType="IGFTabButton">
+    <configProp>
+      <prop field="margin" value="0,0,0,0"/>
+      <prop field="size" value="80,27"/>
+      <prop field="unpushedNormalTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="unpushedPushedTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="unpushedHighlightTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="unpushedNormalBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_normal.gft">
+          </Texture>
+        </value>
+      </prop>
+      <prop field="unpushedHighlightBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_hover.gft">
+          </Texture>
+        </value>
+      </prop>
+      <prop field="unpushedPushedBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_down.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedNormalTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="pushedPushedTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="pushedHighlightTextColor" value="#@this.TextColor.TabButtonClrPushed"/>
+      <prop field="pushedFont" value="#@this.Font.Normal"/>
+      <prop field="unpushedFont" value="#@this.Font.Normal"/>
+      <prop field="pushedNormalBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_down.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedPushedBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_down.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedHighlightBkg">
+        <value>
+          <Texture file="commonres:TabCtrl\ims_tab_button_vul_down.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Switch_Button_xp" configType="IGFButton">
+    <configProp>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="normalDefaultBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_down.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedDefaultBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightDefaultBackground">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_closed_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground2">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_open_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground2">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_open_down.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground2">
+        <value>
+          <Texture file="commonres:SwitchButton\swbtn_open_hover.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Switch_Button_win7" configType="IGFButton" comboConfig="Switch_Button_xp"/>
+  <ConfigAgent name="PanelSwitchButton" configType="IGFCheckButton" forCommon="TRUE">
+    <configProp>
+      <prop field="checkedHighlightTexture" value="commonres:RadioButton\radiobutton_checkedNormalTexture.gft"/>
+      <prop field="checkedNormalTexture" value="commonres:RadioButton\radiobutton_checkedNormalTexture.gft"/>
+      <prop field="checkedPushedTexture" value="commonres:RadioButton\radiobutton_checkedNormalTexture.gft"/>
+      <prop field="uncheckedHighlightTexture" value="commonres:RadioButton\radiobutton_uncheckedNormalTexture.gft"/>
+      <prop field="uncheckedNormalTexture" value="commonres:RadioButton\radiobutton_uncheckedNormalTexture.gft"/>
+      <prop field="uncheckedPushedTexture" value="commonres:RadioButton\radiobutton_uncheckedNormalTexture.gft"/>
+      <prop field="radio" value="true"/>
+      <prop field="clrText" value="#@this.TextColor.Text"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="Link_Static_For_TAVTips" configType="IGFStatic">
+    <configProp>
+      <!--带下划线、带颜色改变、带鼠标手型改变的超链接静态文本控件config-->
+      <prop field="color" value="#@this.TextColor.MasterHighLink" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>#platform.TextColor.MasterHighLink</normalColor>
+        <highlightColor>#platform.TextColor.MasterHighColorLink</highlightColor>
+        <pushedColor>#platform.TextColor.MasterDownColorLink</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Link</highlightFont>
+        <pushedFont>#platform.Font.Link</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+
+  <ConfigAgent name="Link_Static_For_SkinChange" configType="IGFStatic" forCommon="TRUE">
+    <configProp>
+      <!--不带下划线的超链接静态文本控件config-->
+      <prop field="color" value="0xFFF2F8FB" padding="1,1,0,0"/>
+      <prop field="font" value="#@this.Font.Normal"/>
+      <prop field="cursor" value="hand"/>
+    </configProp>
+    <configEffect>
+      <FontEffect>
+        <normalColor>0xFFF2F8FB</normalColor>
+        <highlightColor>0xfffafdfe</highlightColor>
+        <pushedColor>0xfffafdfe</pushedColor>
+        <normalFont>#platform.Font.Normal</normalFont>
+        <highlightFont>#platform.Font.Normal</highlightFont>
+        <pushedFont>#platform.Font.Normal</pushedFont>
+      </FontEffect>
+    </configEffect>
+  </ConfigAgent>
+
+  <ConfigAgent name="tclosebutton" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="102"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="zOrder" value="10"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_close_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_close_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_close_down.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="tminbutton" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="100"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_min_hover.gft"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_min_normal.gft"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\sysbtn_min_down.gft"/>
+        </value>
+      </prop>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="toolTip" value="$@this:MinimizeWindow"/>
+    </configProp>
+  </ConfigAgent>
+
+  <ConfigAgent name="tsysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="tclosebutton"/>
+      <prop field="minimizeConfig" value="tminbutton"/>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="newstyle_Closebutton" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="102"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="zOrder" value="10"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\close\normal.png"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\close\normal.png"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\close\down.png"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="newstyle_minbutton" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="100"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\mini\normal.png"/>
+        </value>
+      </prop>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\mini\normal.png"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\mini\down.png"/>
+        </value>
+      </prop>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="toolTip" value="$@this:MinimizeWindow"/>
+    </configProp>
+  </ConfigAgent>
+
+  <ConfigAgent name="mainsysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="newstyle_Closebutton"/>
+      <prop field="minimizeConfig" value="newstyle_minbutton"/>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="tipslightclose" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="102"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="zOrder" value="10"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\tips_light_close\normal.png"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\tips_light_close\normal.png"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\Animation\tips_light_close\down.png"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  
+  <ConfigAgent name="tipslightsysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="tipslightclose"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="msgclosebutton" configType="IGFButton">
+    <configProp>
+      <prop field="tabGroup" value="true"/>
+      <prop field="tabStop" value="true"/>
+      <prop field="tabOrder" value="102"/>
+      <prop field="autoWidth" value="true"/>
+      <prop field="autoHeight" value="true"/>
+      <prop field="animate" value="true"/>
+      <prop field="border" value="0,0,0,0"/>
+      <prop field="zOrder" value="10"/>
+      <prop field="toolTip" value="$@this:CloseWindow"/>
+      <prop field="normalBackground">
+        <value>
+          <Texture file="commonres:sysbutton\msg_normal.png"/>
+        </value>
+      </prop>
+      <prop field="highlightBackground">
+        <value>
+          <Texture file="commonres:sysbutton\msg_hover.png"/>
+        </value>
+      </prop>
+      <prop field="pushedBackground">
+        <value>
+          <Texture file="commonres:sysbutton\msg_down.png"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="msgsysbutton" configType="IGFSysButton">
+    <configProp>
+      <prop field="closeConfig" value="msgclosebutton"/>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="horzscrollbarWithArrow" configType="IGFScrollBar" forCommon="TRUE">
+    <configProp>
+      <prop field="type" value="Horz"/>
+      <prop field="animate" value="TRUE"/>
+      <prop field="arrowDecreaseNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowLeftNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowDecreaseHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowLeftHover.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowDecreaseDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowLeftDown.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowRightNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowRightHover.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_arrowRightDown.gft"/>
+        </value>
+      </prop>
+      <prop field="barNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_barHorzNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="barHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_barHorzHover.gft"/>
+        </value>
+      </prop>
+      <prop field="barDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_barHorzDown.gft"/>
+        </value>
+      </prop>
+      <prop field="bkg">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_horzscrollbar_bkgHorz.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="vertscrollbarWithArrow" configType="IGFScrollBar" forCommon="TRUE">
+    <configProp>
+      <prop field="type" value="Vert"/>
+      <prop field="animate" value="TRUE"/>
+      <prop field="arrowDecreaseNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowUpNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowDecreaseHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowUpHover.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowDecreaseDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowUpDown.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowDownNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowDownHover.gft"/>
+        </value>
+      </prop>
+      <prop field="arrowIncreaseDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_arrowDownDown.gft"/>
+        </value>
+      </prop>
+      <prop field="barNormal">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_barVertNormal.gft"/>
+        </value>
+      </prop>
+      <prop field="barHover">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_barVertHover.gft"/>
+        </value>
+      </prop>
+      <prop field="barDown">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_barVertDown.gft"/>
+        </value>
+      </prop>
+      <prop field="bkg">
+        <value>
+          <Texture file="commonres:ScrollBar\\All_vertscrollbar_bkgVert.gft"/>
+        </value>
+      </prop>
+    </configProp>
+  </ConfigAgent>
+  <ConfigAgent name="scrollviewWithArrow" configType="IGFScrollView">
+    <configProp>
+      <prop field="horzConfig" value="horzscrollbarWithArrow"/>
+      <prop field="vertConfig" value="vertscrollbarWithArrow"/>
+    </configProp>
+  </ConfigAgent>
+</Config>
